@@ -1,0 +1,8 @@
+<ruleset name="GeoCaching">
+  <target host="geocaching.com" />
+  <target host="*.geocaching.com" />
+
+  <rule from="^http://(www\.)?geocaching\.com/" to="https://www.geocaching.com/"/>
+  <securecookie host=".*\.geocaching\.com$" name=".*" />
+  <securecookie host=".*\.geochecker\.com$" name=".*" />
+</ruleset>
